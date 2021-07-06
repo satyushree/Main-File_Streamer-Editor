@@ -101,12 +101,7 @@ async def start(b, m):
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
-        await m.reply_text(
-            text=START_TEXT.format(m.from_user.mention),
-            parse_mode="HTML",
-            disable_web_page_preview=True,
-            reply_markup=START_BUTTONS
-              )                                                                         
+        
                                                                                        
                                                                             
     else:
